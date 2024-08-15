@@ -98,3 +98,33 @@ button:hover {
     font-size: xx-large;
 
 }
+
+li a[href="#internal"]:hover {
+    background-color: aqua;
+}
+
+li a[href="http://example.com"]:hover {
+    background-color: darkblue;
+}
+
+li a[href="#InSensitive"]:active {
+    background-color: darkorange;
+}
+
+h1::first-line {
+    font-weight: 800;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blue;
+}
+
+h2::first-line {
+    font-weight: 800;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkcyan;
+}
+
+::selection {
+    background-color: black;
+}
