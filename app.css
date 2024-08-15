@@ -91,3 +91,10 @@ input[type="password"] {
     background-color: darkblue;
     color: azure;
 }
+
+button:hover {
+    background-color: greenyellow;
+    color: darkmagenta;
+    font-size: xx-large;
+
+}
